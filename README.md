@@ -2,9 +2,9 @@
 
 # Md. Imran Hossain
 
-`Senior Software Engineer` · `Backend Architect` · `Enterprise Solutions`
+`Mid–Senior Software Engineer` · `Full-Stack Developer` · `Backend & Enterprise Architecture`
 
-Building scalable, high-performance web applications and robust architectures using Laravel, PHP & modern databases.
+Building scalable, high-performance web applications and robust enterprise architectures using Laravel, Vue, React & modern databases.
 
 <br/>
 
@@ -26,14 +26,14 @@ namespace App\Engineers;
 
 class MdImranHossain
 {
-    public string $role       = 'Senior Software Engineer | Backend & Enterprise Architecture';
+    public string $role       = 'Mid-Senior Full-Stack Software Engineer | Backend & Enterprise Architecture';
     public int    $years      = 6;
     public string $education  = 'M.Sc. in CSE (Jagannath University)';
     public string $current    = 'Onest Tech';
     
     public array  $stack      = [
-        'PHP', 'Laravel', 'MySQL', 'Oracle', 'Inertia.js', 
-        'Vue 3', 'React.js', 'RESTful APIs', 'Nginx'
+        'PHP', 'Laravel', 'Vue 3', 'React.js', 'Inertia.js', 
+        'MySQL', 'Oracle', 'RESTful APIs', 'Nginx'
     ];
 
     public array  $domains    = [
@@ -45,6 +45,7 @@ class MdImranHossain
     ];
 
     public array  $expertise  = [
+        'Full-Stack Web Application Development',
         'System Architecture & Design',
         'Database Schema & Complex Query Optimization',
         'High-Throughput RESTful API Development',
@@ -53,6 +54,6 @@ class MdImranHossain
 
     public function openTo(): string
     {
-        return 'Senior Software Engineer, Backend Engineer, Tech Lead & System Architect roles';
+        return 'Full-Stack Engineer, Senior Software Engineer, Backend Engineer & System Architect roles';
     }
 }
